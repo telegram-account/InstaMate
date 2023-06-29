@@ -1,3 +1,6 @@
+# fileName: nabilanavab/instaMate/main.py
+# copyright ©️ 2023 nabilanavab
+
 from bot import bot
 from bot.work import Work
 from logger import logger
@@ -32,3 +35,5 @@ if __name__ == "__main__":
     work = Work().restart_works()
     logger.debug('bot restarted..')
     bot.polling()
+
+# Author : @nabilanavab
