@@ -1,3 +1,6 @@
+# fileName: nabilanavab/instaMate/bot/__init__.py
+# copyright ©️ 2023 nabilanavab
+
 import telebot
 from .util import config
 from telebot import types
@@ -9,3 +12,5 @@ class BotInfo:
     bot_id = _bot.id
     bot_first_name = _bot.first_name
     bot_username = _bot.username
+
+# Author : @nabilanavab
