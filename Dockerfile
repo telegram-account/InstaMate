@@ -3,7 +3,7 @@ RUN mkdir /InstaMate && chmod 777 /InstaMate
 
 WORKDIR /InstaMate
 
-COPY dockerImage.txt dockerImage.txt
+COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip && pip install -r dockerImage.txt 
 
 COPY . .
