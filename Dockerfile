@@ -8,4 +8,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 
 COPY . /InstaMate
 
-CMD python3 __main__
+CMD python3 __main__.py
