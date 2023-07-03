@@ -6,5 +6,7 @@ WORKDIR /InstaMate/
 COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip && pip install -r requirements.txt 
 
+RUN pwd
+RUN find / -type d
 
 CMD python3 __main__.py
