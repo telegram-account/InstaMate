@@ -7,7 +7,7 @@ COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip && pip install -r requirements.txt 
 
 
-RUN ls -l
+RUN find . -type d
 COPY . .
 
 CMD python3 /InstaMate/__main__.py
