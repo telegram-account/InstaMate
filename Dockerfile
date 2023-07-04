@@ -11,4 +11,4 @@ COPY web.py .
 
 EXPOSE 8000
 
-CMD gunicorn web:app & python3 main.py
+CMD gunicorn web:app & python3 __main__.py
